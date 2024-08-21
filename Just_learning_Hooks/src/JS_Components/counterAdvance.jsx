@@ -20,6 +20,7 @@ function Count() {
 
     return (
         <>
+            <div>
             <div className="btnClass">
                 <button
                 onClick={increment}>INCREMENT</button>
@@ -28,7 +29,8 @@ function Count() {
                 <button
                 onClick={setzero}>setToZero</button>
                 {count}
-           </div>
+                </div>
+                </div>
         </>
     )
 } 
