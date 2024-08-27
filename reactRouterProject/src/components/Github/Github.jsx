@@ -13,7 +13,7 @@ function Github() {
     
     return (
         <>
-            <div className='bg-gray-500 text-3xl'>Github Followers: { data.followers } <br /> Github Follwing: {data.following}
+            <div className='bg-gray-500 text-3xl'>Github Followers of {data.login}: { data.followers } <br /> Github Follwing: {data.following}
                <img src={data.avatar_url} width={250} alt="" />
             </div>
            
